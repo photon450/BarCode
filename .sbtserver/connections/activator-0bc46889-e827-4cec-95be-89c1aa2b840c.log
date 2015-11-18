@@ -15394,3 +15394,10 @@ Sending msg to client activator-0bc46889-e827-4cec-95be-89c1aa2b840c: Background
 Sending msg to client activator-0bc46889-e827-4cec-95be-89c1aa2b840c: BackgroundJobLogEvent(2,LogMessage(info,- application - Creating Pool for datasource 'default'))
 Sending msg to client activator-0bc46889-e827-4cec-95be-89c1aa2b840c: BackgroundJobLogEvent(2,LogMessage(info,- play.api.db.DefaultDBApi - Database [default] connected at jdbc:postgresql://localhost:15432/myapp))
 Sending msg to client activator-0bc46889-e827-4cec-95be-89c1aa2b840c: BackgroundJobLogEvent(2,LogMessage(info,- play.api.Play - Application started (Dev)))
+Client activator-0bc46889-e827-4cec-95be-89c1aa2b840c closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Client activator-0bc46889-e827-4cec-95be-89c1aa2b840c thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client activator-0bc46889-e827-4cec-95be-89c1aa2b840c
+Dropping message BackgroundJobLogEvent(2,LogMessage(info,Stopping Play fork run ...)) to dead client activator-0bc46889-e827-4cec-95be-89c1aa2b840c
+Dropping message BackgroundJobLogEvent(1,LogMessage(info,Forked Play process exited with status: 0)) to dead client activator-0bc46889-e827-4cec-95be-89c1aa2b840c
+Dropping message BackgroundJobLogEvent(2,LogMessage(info,- application - Shutting down connection pool.)) to dead client activator-0bc46889-e827-4cec-95be-89c1aa2b840c

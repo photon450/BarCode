@@ -3182,3 +3182,7 @@ Sending msg to client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297: Backgr
 Sending msg to client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297: BackgroundJobLogEvent(2,LogMessage(info,- application - Creating Pool for datasource 'default'))
 Sending msg to client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297: BackgroundJobLogEvent(2,LogMessage(info,- play.api.db.DefaultDBApi - Database [default] connected at jdbc:postgresql://localhost:15432/myapp))
 Sending msg to client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297: BackgroundJobLogEvent(2,LogMessage(info,- play.api.Play - Application started (Dev)))
+Client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297 closed, java.net.SocketException: Socket closed, shutting down
+Client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297 thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-285ea6ac-1808-4ae0-9f27-12d5834e5297
+Closing the 15600@SkyFort logs at Wed Nov 18 03:37:04 EST 2015, goodbye.
