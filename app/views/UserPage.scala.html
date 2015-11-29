@@ -1,3 +1,4 @@
+@(userIdStr: String)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,16 +13,12 @@
     <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
 
 
-    <title>My Account Page</title>
 </head>
 <body>
 
-@navbar()
 
-    <p>
-        <h1> Welcome!! </h1>
+@navbar(userIdStr)
 
-    </p>
-    <div>
+
 </body>
 </html>

@@ -12,7 +12,7 @@ import java.util.List;
 public class Application extends Controller {
 
     public Result index() {
-        return ok(Home.render());
+        return ok(Home.render(navibar.retrieveId()));
     }
 
 }

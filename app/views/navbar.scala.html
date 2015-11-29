@@ -1,14 +1,30 @@
+@(usrIdStr: String)
+
+@logo()
+
+@if(usrIdStr != null){
+Hello: @usrIdStr
 <ul class="nav nav-tabs">
     <li class="active">
-        <a href="#" class="text-center"> View newly added tools here </a>
+        <a href="#" class="text-center"> Manage Your Inventory </a>
     </li>
-    <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login/New Users <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">New Users</a></li>
-        </ul>
-    </li>
-    <li><a href="#">About</a></li>
+    <li><a href="@routes.home.getHome()">BarCode</a></li>
+  <!--  <li> routes.toolsub.displayToolSub --> <!-- page to see items go here -->
     <li><a href="@routes.UserPage.getUserPage()":>Account</a></li>
+    <li><a href="@routes.Account.logout()">Logout</a></li>
+    <li><a href="#">About</a></li>
+
 </ul>
+} else{
+
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#" class="text-center"> Manage Your Inventory </a>
+    </li>
+    <li><a href="@routes.home.getHome()">BarCode</a></li>
+    <li><a href="@routes.Account.getLoginPage()">Login</a></li>
+    <li><a href="@routes.Account.getRegPage()">New Users</a></li>
+    <li><a href="#">About</a></li>
+
+</ul>
+}

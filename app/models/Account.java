@@ -23,6 +23,10 @@ public class Account  extends Model {
     @Id
     public Long id;
 
+    public String username;
+
+    public String password;  //redundant?
+
     public String first_name;
 
     public String last_name;
@@ -39,3 +43,4 @@ public class Account  extends Model {
 
 
 }
+

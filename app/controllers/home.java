@@ -9,6 +9,6 @@ import views.html.*;
 public class home extends Controller {
 
     public Result getHome() {
-        return ok(Home.render());
+        return ok(Home.render(navibar.retrieveId()));
     }
 }

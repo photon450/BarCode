@@ -1,3 +1,5 @@
+import play.routes.compiler.InjectedRoutesGenerator
+
 name := """BarCode"""
 
 version := "1.0-SNAPSHOT"

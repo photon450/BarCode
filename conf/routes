@@ -19,3 +19,7 @@ GET     /Home/Login                controllers.Account.getLoginPage()
 GET    /Login/Registration          controllers.Account.getRegPage()
 
 POST    /Login/Registration/submit      controllers.Account.addUser()
+
+POST    /Login                          controllers.Account.login()
+
+GET     /Login/Logout                   controllers.Account.logout()

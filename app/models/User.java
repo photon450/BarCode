@@ -28,22 +28,30 @@ import play.data.validation.Constraints;
 
 
   // So check the username and password entered and see if neither is null and password is greater than 8
-    public static User createNewUser(String email, String password) {
-        if(password == null || email == null || password.length() < 8) {
-            return null;
-        }
-        // if not null continue process
-        // hash and salt the password
+  public static User createNewUser(String email, String password, String first_name, String last_name, String username) {
+      if(password == null || email == null || password.length() < 8 || username == null) {
+          return null;
+      }
+      // if not null continue process
+      // hash and salt the password
 
-        String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
+      String passwordHash = BCrypt.hashpw(password, BCrypt.gensalt());
 
-        // proceed to create the user, dont worry inherits from Account.
-        User user = new User();
-        user.email = email;
-        user.passwordHash = passwordHash;
-
-        return user;
+      // proceed to create the user, dont worry inherits from Account.
+      User user = new User();
+      user.email = email;
+      user.passwordHash = passwordHash;
+      user.first_name = first_name;
+      user.last_name = last_name;
+      user.username = username;
+      user.dateCreated = new java.util.Date();
+      return user;
+  }
+    public boolean authenticate(String password)
+    {
+        return BCrypt.checkpw(password, this.passwordHash);
     }
+
 
     }
 
