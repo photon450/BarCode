@@ -16,14 +16,13 @@ create table manager (
 ;
 
 create table product (
-  sku                       bigserial not null,
+  id                        bigserial not null,
   product_name              varchar(255),
-  tool_description          varchar(255),
-  conditions                varchar(255),
-  product_id                bigint,
+  condition                 varchar(255),
   product_desc              varchar(255),
   category                  varchar(255),
-  constraint pk_product primary key (sku))
+  availability              integer,
+  constraint pk_product primary key (id))
 ;
 
 create table sales (

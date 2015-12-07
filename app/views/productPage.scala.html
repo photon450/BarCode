@@ -1,0 +1,38 @@
+@(usrIdStr: String, the_product: Product)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> Share, Borrow, Build</title>
+
+    <!-- Bootstrap -->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+</head>
+
+<body>
+
+@navbar(usrIdStr)
+
+<h1 class="text-center">@the_product.Product_Name</h1>
+
+<p>@the_product.ProductDesc</p>
+
+<ul>
+    <li>
+        Condition: @the_product.Condition
+    </li>
+
+</ul>
+
+
+
+</body>
+</html>

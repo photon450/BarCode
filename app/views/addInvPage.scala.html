@@ -1,0 +1,42 @@
+@(userIdStr: String)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Bootstrap!!! --->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+</head>
+<body>
+
+
+@navbar(userIdStr)
+
+
+@flashM()
+<form name = "NewInventory" action="@routes.Inventory.addInv()" method="post">
+    SKU: <input type="text" name="SKU" id="SKU" required="required" > <br><br>
+    Product_Name: <input type="text" name="Product_Name" id="Product_Name" required="required"><br><br>
+    Condition: <input type="text" name="Condition" id="Condition" required="required"><br><br>
+    <select size="1" name="Category" id="Category">
+    <option> Select the category</option>
+    <option value="Electronics"> Electronics </option>
+    <option value="Apparel"> Apparel </option>
+    <option value="Sports and Fitness"> Sports and Fitness </option>
+    </select><br>
+    Desc: <input type="text" name="Desc" id="Desc"> <br>
+    Quantity": <input type="text" name="Quantity"" id="Quantity"" required="required"> <br>
+
+    <input type="submit" value="Add Item!">
+    <input type="reset"  value="Reset Form">
+</form>
+
+</body>
+</html>

@@ -1,12 +1,13 @@
 package models;
 
-import scala.collection.generic.BitOperations;
-import com.avaje.ebean.Model;
 
+import com.avaje.ebean.Model;
+import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -21,13 +22,30 @@ public class Product extends Inventory {
 
 
     public static Finder<Long, Product> find = new Finder<Long, Product>(Product.class);
+    public List<Product> products = new ArrayList<Product>();
 
-    Long ProductID;
-
-    String ProductName;
-    String ProductDesc;
-    String Category;
-    BitOperations.Int Availability;
+   // Long ProductID;
 
 
+    public String ProductDesc;
+   public  String Category;
+    public Integer Availability;
+
+
+    public static Product createNewProduct(String SKU, String Product_Name, String Category,String Condition, String Desc,Integer Availability )
+    {
+       if( SKU == null  )
+           return null;
+
+        Product product = new Product();
+        product.SKU = SKU;
+        product.Product_Name = Product_Name;
+        product.Category = Category;
+        product.Condition = Condition;
+        product.ProductDesc = Desc;
+        product.Availability = Availability;
+        return product;
+
+
+    }
 }

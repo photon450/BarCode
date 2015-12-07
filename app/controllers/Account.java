@@ -7,7 +7,9 @@ package controllers;
 //add id of manager or user to pass to userauth
 
 
+import models.ManAuth;
 import models.User;
+import models.UserAuth;
 import play.data.DynamicForm;
 import play.mvc.*;
 

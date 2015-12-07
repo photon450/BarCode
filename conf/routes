@@ -35,3 +35,12 @@ GET  /Home/MLogin                   controllers.ManagerAcc.getMLogin()
 POST    /MLogin                     controllers.ManagerAcc.login()
 
 GET  /ManMain/Inv                   controllers.Inventory.getInvPage()
+
+GET    /ManMain/Inv/Addition        controllers.Inventory.getAddInvPage()
+
+POST    /ManMain/Inv/Addition/submit    controllers.Inventory.addInv()
+
+GET   /showProduct:id               controllers.ProductsP.displayProduct(id : Long)
+
+GET     /View/Inv                   controllers.ProductsP.getViewInv()
+

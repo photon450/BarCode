@@ -14,14 +14,14 @@
 
 
 </head>
-<body>
+<body class ="body">
 
 
 @navbar(userIdStr)
-
-<a href="@routes.Account.getRegPage()">Register New Employee</a>
-<a href="@routes.Inventory.getInvPage()"> Inventory</a>
-
+@flashM() <br>
+<a href="@routes.Account.getRegPage()">Register New Employee</a> <br>
+<a href="@routes.Inventory.getAddInvPage()"> Enter New Inventory</a>
+<a href="@routes.ProductsP.getViewInv()">  View Inventory</a>
 
 </body>
 </html>

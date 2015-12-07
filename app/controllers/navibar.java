@@ -24,10 +24,6 @@ public class navibar extends Controller {
             } else {User the_user = User.find.byId(query);
                 user_name =the_user.username;
             }
-
-
-
-
         } if( m_id != null)
         { query = Long.valueOf(m_id).longValue();
             Manager the_user = Manager.find.byId(query);

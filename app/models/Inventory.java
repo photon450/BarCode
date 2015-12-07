@@ -19,16 +19,18 @@ import play.data.validation.Constraints;
 public class Inventory extends Model {
 
     @Id
-     public long SKU;
+    public long Id;
+
+     public static String SKU;
 
      public String Product_Name;
 
-     public String  Tool_Description;
+   //  public String  Item_Description;
 
-    public String Conditions;
+     public String Condition;
 
     
-    public static Finder<Long, Inventory> find = new Finder<Long, Inventory>(Inventory.class);
+ //   public static Finder<Long, Inventory> find = new Finder<Long, Inventory>(Inventory.class); No Need
 
 
    // public static Inventory createNewInventory( Inventory SKU )

@@ -1,0 +1,43 @@
+@(userIdStr: String, products: List[Product])
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Bootstrap!!! --->
+    <link href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+
+</head>
+<body>
+
+
+@navbar(userIdStr)
+
+@if(products == null){
+ You dont have any Inventory to display!!
+} else {
+<p> View your Inventory below: </p>
+    @for(product <- products){
+    <ul>
+         <label for="Product_Name">Product Name: </label>
+         <a href=" @routes.ProductsP.displayProduct(product.Id)" id="product_name" name="product_name">@product.Product_Name</a>
+         <li id="product_cond" name="product_cond" ><b> Condition: </b> @product.Condition</li>
+        <br/>
+    </ul>
+
+    <label for="product_list_descrp">Product Description: </label>
+    <p id="product_list_descrp" name="product_list_descrp"> @product.ProductDesc </p>
+
+    <label for="product_list_Quant">Product Quantity Available </label>
+    <p id="product_list_Quant" name="product_list_descrp"> @product.Availability </p>
+    }
+}
+
+</body>
+</html>
