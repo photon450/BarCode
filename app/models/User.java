@@ -21,7 +21,7 @@ import play.data.validation.Constraints;
 
 
       //  @OneToMany
-    //    public List<Tool> tools;
+    //    public List<Inventory> tools;
 
         public static Finder<Long, User> find = new Finder<Long, User>(User.class);
         //Implement find by functions later

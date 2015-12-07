@@ -4,6 +4,9 @@ package controllers;
  * Created by Whale on 11/15/2015.
  */
 
+//add id of manager or user to pass to userauth
+
+
 import models.User;
 import play.data.DynamicForm;
 import play.mvc.*;
@@ -24,7 +27,7 @@ public class Account extends Controller {
 // we define adduser here.
 public Result addUser() {
     Form<User> userForm = form(User.class).bindFromRequest();      //creates a DynamicForm userform we bind from the request
-    String email = userForm.data().get("username");
+    String email = userForm.data().get("email");
     String password = userForm.data().get("password");
     String first_name = userForm.data().get("first_name");
     String last_name = userForm.data().get("last_name");
@@ -41,13 +44,14 @@ public Result addUser() {
     }
     user.save();
 
-    flash("success", "Welcome new user " + user.email);
+    flash("success", "Welcome new user " + user.email);    // added to session
     session("user_id", user.id.toString());
     return redirect(routes.UserPage.getUserPage()); // leaves at their Main user page
 }
 
     public Result logout() {
         session().remove("user_id");
+         session().remove("Man_id");
         return ok(Home.render(navibar.retrieveId()));
     }
 
@@ -55,7 +59,7 @@ public Result addUser() {
         DynamicForm userForm = form().bindFromRequest();
         String email = userForm.data().get("email");
         String password = userForm.data().get("password");
-        User user = User.find.where().eq("email", email).findUnique();
+                User user = User.find.where().eq("email", email).findUnique();
 
         if(user != null && user.authenticate(password)) {
             session("user_id", user.id.toString());

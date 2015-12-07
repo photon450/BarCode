@@ -12,6 +12,7 @@ import play.libs.F;
  */
 public class UserAuth extends Security.Authenticator {
 
+  //  if()
     // When return is null, Authentication failed
     @Override
     public String getUsername(final Http.Context ctx) {
@@ -29,4 +30,5 @@ public class UserAuth extends Security.Authenticator {
         return redirect(routes.Application.index());
     }
 }
+
 

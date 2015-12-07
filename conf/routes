@@ -23,3 +23,15 @@ POST    /Login/Registration/submit      controllers.Account.addUser()
 POST    /Login                          controllers.Account.login()
 
 GET     /Login/Logout                   controllers.Account.logout()
+
+GET  /managerRegs                       controllers.ManagerAcc.getManPage()
+
+POST   /mangerRegs/submit               controllers.ManagerAcc.addMan()
+
+GET  /Home/ManMain                  controllers.ManagerAcc.getManMain()
+
+GET  /Home/MLogin                   controllers.ManagerAcc.getMLogin()
+
+POST    /MLogin                     controllers.ManagerAcc.login()
+
+GET  /ManMain/Inv                   controllers.Inventory.getInvPage()
