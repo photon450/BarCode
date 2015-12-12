@@ -17,6 +17,7 @@ create table manager (
 
 create table product (
   id                        bigserial not null,
+  sku                       varchar(255),
   product_name              varchar(255),
   condition                 varchar(255),
   product_desc              varchar(255),

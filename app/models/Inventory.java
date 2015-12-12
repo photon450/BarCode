@@ -21,7 +21,7 @@ public class Inventory extends Model {
     @Id
     public long Id;
 
-     public static String SKU;
+     public  String SKU;
 
      public String Product_Name;
 

@@ -1,5 +1,5 @@
-New log file opened at Mon Dec 07 13:11:13 EST 2015 by 238836@SkyFort
-jvm 238836@SkyFort
+New log file opened at Fri Dec 11 20:13:01 EST 2015 by 14868@SkyFort
+jvm 14868@SkyFort
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b18
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\Whale\Documents\Gitprojects\BarCode\project, returning: (barcode-build)
 Loading project definition from C:\Users\Whale\Documents\Gitprojects\BarCode\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@49681882, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@28c00e95, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -73,4 +73,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 238836@SkyFort logs at Mon Dec 07 13:11:17 EST 2015, goodbye.
+Closing the 14868@SkyFort logs at Fri Dec 11 20:13:05 EST 2015, goodbye.

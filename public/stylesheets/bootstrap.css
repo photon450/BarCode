@@ -10,9 +10,8 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
-}
+
+
 article,
 aside,
 details,
@@ -244,7 +243,7 @@ th {
   }
   .navbar {
     display: none;
-  }
+      }
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
@@ -1079,6 +1078,8 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+
+
 }
 input,
 button,
@@ -1091,6 +1092,7 @@ textarea {
 a {
   color: #337ab7;
   text-decoration: none;
+  margin-left: 20px;
 }
 a:hover,
 a:focus {
@@ -2604,6 +2606,7 @@ input[type="search"] {
 }
 .form-group {
   margin-bottom: 15px;
+
 }
 .radio,
 .checkbox {
@@ -3526,7 +3529,7 @@ tbody.collapse.in {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
-  }
+     }
   .navbar-right .dropdown-menu-left {
     right: auto;
     left: 0;
@@ -3858,7 +3861,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
+    }
 .nav > li {
   position: relative;
   display: block;
@@ -3891,7 +3894,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav .nav-divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 9px 0px;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -3900,6 +3903,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-tabs {
   border-bottom: 1px solid #ddd;
+  margin-left;
 }
 .nav-tabs > li {
   float: left;
@@ -4052,12 +4056,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+    border: 1px solid transparent;
 }
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
-  }
+      }
 }
 @media (min-width: 768px) {
   .navbar-header {

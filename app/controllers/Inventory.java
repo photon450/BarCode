@@ -44,7 +44,7 @@ public class Inventory extends Controller {
 
         product.save();
 
-        flash("success", "Added new item" + SKU +" " + Product_Name );
+        flash("success", "Added new item " +"SKU:"+  SKU +" " + Product_Name );
         return  redirect(routes.Inventory.getInvPage());
     }
 

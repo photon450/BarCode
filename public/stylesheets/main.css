@@ -1,5 +1,25 @@
 .body { background-color:
-margin-left: auto;
+margin-left: 20px;
 margin-right:auto;
 width:80%;
 }
+
+#wrapper  {
+margin-left: 20px;
+}
+
+.marginc {
+margin-top:10px;
+margin-left: 20px;
+}
+
+
+form { width: 100px;
+        padding: 10px;}
+        label: float:left;
+        clear:left;
+        display: block;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 10px;
+        }
