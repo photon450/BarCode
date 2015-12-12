@@ -10,29 +10,28 @@ import models.Manager;
 public class navibar extends Controller {
 
     public static String retrieveId() {
-        String the_id = session().get("user_id"), user_name = null;
-        String m_id = session().get("Man_id");
+        String the_id = session().get("user_id"), user_name;
+        String m_id = session().get("Man_id"), name;
         //Check if not null later
         Long query = null;
 
-        if(the_id != null ){
+        if (the_id != null) {
             query = Long.valueOf(the_id).longValue();
-            if(query != null){  //beacuse using the_id which is users
+              //beacuse using the_id which is users
                 User the_user = User.find.byId(query);
-                user_name =the_user.username;
+                user_name = the_user.username;
                 return user_name;
-            } else { query = Long.valueOf(m_id).longValue();  //switch to managers
-                Manager the_user = Manager.find.byId(query);
-                if(the_user != null)
-                user_name =the_user.username;
+            } else if (m_id != null) {
+                query = Long.valueOf(m_id).longValue();  //switch to managers
+                Manager the_man = Manager.find.byId(query);
+                return user_name = the_man.username;
 
-            }
+            } else user_name = null;
 
-        }
-        else{ return user_name =null;}
-    return user_name;
+
+        return user_name;
     }
-
+}
   /*  public static String retrieveId() {
         String the_id = session().get("user_id"), user_name;
         //Check if not null later
@@ -65,7 +64,7 @@ public class navibar extends Controller {
 
         }
         return user_name;
-    } */
+    }
     public static String retrieveId(String code) {
         String word = null;
 
@@ -91,4 +90,4 @@ public class navibar extends Controller {
 
     }
 
-}
+} */

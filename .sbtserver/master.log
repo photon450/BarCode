@@ -3375,3 +3375,1300 @@ Copy resource mappings:
 Total time: 1 s, completed Dec 12, 2015 5:06:43 AM
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@91c9fbc, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Java compilation took 0.640132475 s
+Java analysis took 0.042543605 s
+Java compile + analysis took 0.693338818 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed Dec 12, 2015 5:24:06 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6270d8ca, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Dec 12, 2015 5:24:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 10
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@185aa106, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@512c082f, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:07 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@2f0df6b4, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:09 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@4936b173, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:10 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f5d35be, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 0 s, completed Dec 12, 2015 5:24:10 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@12cac8eb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Java compilation took 0.632237128 s
+Java analysis took 0.042874024 s
+Java compile + analysis took 0.687634322 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed Dec 12, 2015 5:24:51 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4920b627, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Dec 12, 2015 5:24:51 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@3547f442, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 0 s, completed Dec 12, 2015 5:24:52 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 11
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@2d4206b2, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:52 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@2c54468c, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:52 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@24909617, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:53 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@2103095a, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:24:54 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7fd10991, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 0 s, completed Dec 12, 2015 5:24:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@53606105, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:32:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:32:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+            return user_name;
+                   ^
+Total time: 1 s, completed Dec 12, 2015 5:27:55 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@71f41f6b, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:32:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:32:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+            return user_name;
+                   ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:27:56 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@489266a1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:32:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:32:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+            return user_name;
+                   ^
+Total time: 1 s, completed Dec 12, 2015 5:27:58 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@32d596b1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:32:38 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e7cdb67, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Total time: 1 s, completed Dec 12, 2015 5:32:38 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4bfebbdb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Total time: 1 s, completed Dec 12, 2015 5:32:43 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e963720, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Total time: 1 s, completed Dec 12, 2015 5:33:19 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e6b7f70, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:33:20 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@783242a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Total time: 1 s, completed Dec 12, 2015 5:33:21 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@10835fa9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:31:  error: variable user_name might not have been initialized
+Read from stdout: return user_name;
+Read from stdout: ^
+        return user_name;
+               ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:34:36 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@76661840, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+Read from stdout: }
+Read from stdout: ^
+            }
+            ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:38:25 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e2ca2fb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+Read from stdout: }
+Read from stdout: ^
+            }
+            ^
+Total time: 1 s, completed Dec 12, 2015 5:38:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1d92ac41, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+Read from stdout: }
+Read from stdout: ^
+            }
+            ^
+Total time: 1 s, completed Dec 12, 2015 5:38:33 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@3e45ad41, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+Read from stdout: } else if(m_id !=null){
+Read from stdout: ^
+            } else if(m_id !=null){
+            ^
+Total time: 1 s, completed Dec 12, 2015 5:38:44 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@4cebb7f3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+Read from stdout: } else if(m_id !=null){
+Read from stdout: ^
+            } else if(m_id !=null){
+            ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:38:44 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@7605f11, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: illegal start of statement
+Read from stdout: } else if(m_id !=null){
+Read from stdout: ^
+            } else if(m_id !=null){
+            ^
+Total time: 1 s, completed Dec 12, 2015 5:38:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@29091876, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:34:  error: reached end of file while parsing
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:34:  error: reached end of file while parsing
+Read from stdout: }
+Read from stdout: ^
+    }
+     ^
+Total time: 1 s, completed Dec 12, 2015 5:39:19 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3692f95c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:34:  error: reached end of file while parsing
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:34:  error: reached end of file while parsing
+Read from stdout: }
+Read from stdout: ^
+    }
+     ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:39:20 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e6ccbe0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:34:  error: reached end of file while parsing
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:34:  error: reached end of file while parsing
+Read from stdout: }
+Read from stdout: ^
+    }
+     ^
+Total time: 1 s, completed Dec 12, 2015 5:39:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@21079788, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+Read from stdout: return user_name;
+Read from stdout: ^
+                return user_name;
+                ^
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:33:  error: missing return statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:33:  error: missing return statement
+Read from stdout: }
+Read from stdout: ^
+    }
+    ^
+Total time: 1 s, completed Dec 12, 2015 5:39:47 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@b948cbb, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+Read from stdout: return user_name;
+Read from stdout: ^
+                return user_name;
+                ^
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:33:  error: missing return statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:33:  error: missing return statement
+Read from stdout: }
+Read from stdout: ^
+    }
+    ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:39:48 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4d23d9ff, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+Read from stdout: return user_name;
+Read from stdout: ^
+                return user_name;
+                ^
+Total time: 1 s, completed Dec 12, 2015 5:41:23 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@506e485d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+Read from stdout: return user_name;
+Read from stdout: ^
+                return user_name;
+                ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 1 s, completed Dec 12, 2015 5:41:24 AM
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4233c102, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+Read from stdout: return user_name;
+Read from stdout: ^
+                return user_name;
+                ^
+Total time: 1 s, completed Dec 12, 2015 5:41:25 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2af3b760, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Read from stdout: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java:28:  error: unreachable statement
+Read from stdout: return user_name;
+Read from stdout: ^
+                return user_name;
+                ^
+Total time: 1 s, completed Dec 12, 2015 5:41:27 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@310eae2a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Java compilation took 0.6884053 s
+Java analysis took 0.045619834 s
+Java compile + analysis took 0.743577535 s
+Invalidating C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java...
+Invalidating (transitively) by inheritance from C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java...
+Initial set of included nodes: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+The C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java source file has the following regular definitions changed:
+	retrieveId.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ManagerAcc.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\home.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Application.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Inventory.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ProductsP.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Account.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java
+New invalidations:
+	Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ManagerAcc.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\home.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Application.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Inventory.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ProductsP.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Account.java)
+Initial set of included nodes: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ManagerAcc.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\home.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Application.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Inventory.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ProductsP.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Account.java)
+Including C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\routes\main\router\Routes.scala by C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ManagerAcc.java
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ManagerAcc.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\home.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Application.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Inventory.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\ProductsP.java, C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\Account.java)
+Read from stdout: Compiling 6 Java sources to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 6 Java sources to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Java compilation took 0.769545501 s
+Java analysis took 0.094998736 s
+Java compile + analysis took 0.872597286 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed Dec 12, 2015 5:42:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@779e3a07, check cycles: false
+
+Canceling execution...
+Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@623a9b64 rejected from java.util.concurrent.ThreadPoolExecutor@580a509c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 21]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ExecutorCompletionService$QueueingFuture@623a9b64 rejected from java.util.concurrent.ThreadPoolExecutor@580a509c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 21]
+Use 'last' for the full log.
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 12
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@705654dd, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@1f36f209, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:26 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@319d8052, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:28 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@6874bbf2, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:29 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@660e7cc1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Java compilation took 0.679495648 s
+Java analysis took 0.274858606 s
+Java compile + analysis took 0.965679017 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed Dec 12, 2015 5:42:32 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1ab9d9db, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Whale\Documents\Gitprojects\BarCode\app\controllers\navibar.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes...
+Java compilation took 0.686919776 s
+Java analysis took 0.042696209 s
+Java compile + analysis took 0.737916411 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed Dec 12, 2015 5:42:56 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@24ec5ebe, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Dec 12, 2015 5:42:57 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 13
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@65ed4385, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:57 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@76c7f4a8, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:57 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e8f4b28, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:42:59 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@51136c1a, check cycles: false
+Total time: 0 s, completed Dec 12, 2015 5:43:00 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Whale/Documents/Gitprojects/BarCode/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@d2dce8e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\application.conf,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\application.conf)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\logback.xml,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\routes,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\routes)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Whale\Documents\Gitprojects\BarCode\conf\evolutions\default\1.sql,C:\Users\Whale\Documents\Gitprojects\BarCode\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 0 s, completed Dec 12, 2015 5:43:00 AM
+> server-post-command-cleanup
+> server-handle-next-server-request
