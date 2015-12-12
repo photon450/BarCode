@@ -61,7 +61,7 @@ public Result addUser() {
         DynamicForm userForm = form().bindFromRequest();
         String email = userForm.data().get("email");
         String password = userForm.data().get("password");
-                User user = User.find.where().eq("email", email).findUnique();
+        User user = User.find.where().eq("email", email).findUnique();
 
         if(user != null && user.authenticate(password)) {
             session("user_id", user.id.toString());

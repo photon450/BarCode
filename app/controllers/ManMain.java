@@ -21,8 +21,8 @@ public class ManMain {
     public Result getManMain() {
 
         String the_id = session().get("Man_id"), user_name;
-        Long query = Long.valueOf(the_id);
-        query = Long.valueOf(the_id).longValue();
+        // Long query = Long.valueOf(the_id);
+       Long query = Long.valueOf(the_id).longValue();
         Manager the_user = Manager.find.byId(query);
         user_name = the_user.username;
         // List<Inventory> tool_List = Inventory.find.all();   THE ITEMS THING DO WONT GO HERE...

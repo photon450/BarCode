@@ -73,7 +73,7 @@ public class ManagerAcc extends Controller {
         Manager manager = Manager.find.where().eq("email", email).findUnique();
 
 
-            if(manager != null && manager.authenticate(password) && code == "YesIam" ) {
+            if(manager != null && manager.authenticate(password) /* && code == "YesIam" */) {
             session("Man_id", manager.id.toString());
             flash("success", "Welcome back " + manager.username);
                 redirect(routes.ManagerAcc.getManMain());

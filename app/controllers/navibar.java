@@ -10,30 +10,27 @@ import models.Manager;
 public class navibar extends Controller {
 
     public static String retrieveId() {
-        String the_id = session().get("user_id"), user_name;
+        String the_id = session().get("user_id"), user_name = null;
         String m_id = session().get("Man_id");
         //Check if not null later
         Long query = null;
 
         if(the_id != null ){
             query = Long.valueOf(the_id).longValue();
-            if(query == null)  //beacuse using the_ide which is users
-            { query = Long.valueOf(m_id).longValue();  //switch to managers
+            if(query != null){  //beacuse using the_id which is users
+                User the_user = User.find.byId(query);
+                user_name =the_user.username;
+                return user_name;
+            } else { query = Long.valueOf(m_id).longValue();  //switch to managers
                 Manager the_user = Manager.find.byId(query);
+                if(the_user != null)
                 user_name =the_user.username;
-            } else {User the_user = User.find.byId(query);
-                user_name =the_user.username;
+
             }
-        } if( m_id != null)
-        { query = Long.valueOf(m_id).longValue();
-            Manager the_user = Manager.find.byId(query);
-            user_name = the_user.username;
-        }
-        else {
-            user_name = null;
 
         }
-        return user_name;
+        else{ return user_name =null;}
+    return user_name;
     }
 
   /*  public static String retrieveId() {

@@ -1,8 +1,8 @@
-@(usrIdStr: String)
+@(usrIdStr: String)  <!-- @(session.get("user_id")) @(session.get("Man_id"))-->
 
 @logo()
 
-@if(usrIdStr != null){
+@if(session.get("user_id") != null){
 Hello: @usrIdStr
 <ul class="nav nav-tabs">
     <li class="active">
@@ -16,9 +16,22 @@ Hello: @usrIdStr
     <li><a href="#">About</a></li>
 
 </ul>
-} else{
+} @if(session.get("Man_id") !=null){
+Hello: @usrIdStr
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a href="#" class="text-center"> Manage Your Inventory </a>
+    </li>
+    <li><a href="@routes.home.getHome()">BarCode</a></li>
+    <li><a href="@routes.ManagerAcc.getManMain()":>Account</a></li>
+    <li><a href="@routes.Account.logout()">Logout</a></li>
+    <li><a href="@routes.Inventory.getInvPage()"> Inventory </a></li>
+    <li><a href="#">About</a></li>
 
-<ul  class="nav nav-tabs">
+</ul>
+} else {
+
+<ul class="nav nav-tabs">
     <li class="active">
         <a href="#" class="text-center"> Manage Your Inventory </a>
     </li>
