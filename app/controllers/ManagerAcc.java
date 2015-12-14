@@ -5,13 +5,14 @@ import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
 import models.Manager;
-import views.html.Home;
-import views.html.MLogin;
-import views.html.ManRegPage;
-import views.html.ManMain;
+import views.html.*;
 
 import static play.data.Form.form;
 import play.data.Form;
+import views.html.ManMain;
+
+import java.util.Objects;
+
 /**
  * Created by Whale on 12/5/2015.
  */
@@ -28,6 +29,7 @@ public class ManagerAcc extends Controller {
     public Result getMLogin() {return  ok(MLogin.render(navibar.retrieveId()));  }
 
 
+
         public Result addMan(){
             Form<Manager> userForm = form(Manager.class).bindFromRequest();      //creates a DynamicForm userform we bind from the request
             String email = userForm.data().get("email");
@@ -40,10 +42,17 @@ public class ManagerAcc extends Controller {
 
               //creates new manager object to save to DB
             Manager manager = Manager.createNewManager(email, password, first_name, last_name, username,code);
+            Manager Fmanager = Manager.find.where().eq("email", email).findUnique();
 
             String SecretCode = "YesIam";
-            if(code != SecretCode ) {
-                 flash("error", "invalid code");
+            if(!code.equals(SecretCode)) {
+                 flash("error", "invalid code!");
+                return redirect(routes.ManagerAcc.getManPage());
+            }
+
+            if( Fmanager != null){
+                flash("error", "Admin already Exists" );
+                return redirect(routes.Application.index());
             }
 
             manager.save();

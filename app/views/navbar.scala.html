@@ -16,7 +16,7 @@ Hello: @usrIdStr
     <li><a href="#">About</a></li>
 
 </ul>
-} @if(session.get("Man_id") !=null){
+} else{ @if(session.get("Man_id") !=null){
 Hello: @usrIdStr
 <ul class="nav nav-tabs">
     <li class="active">
@@ -29,8 +29,7 @@ Hello: @usrIdStr
     <li><a href="#">About</a></li>
 
 </ul>
-} else {
-
+}else {
 <ul class="nav nav-tabs">
     <li class="active">
         <a href="#" class="text-center"> Manage Your Inventory </a>
@@ -40,4 +39,4 @@ Hello: @usrIdStr
     <li><a href="#">About</a></li>
 
 </ul>
-}
+}  }

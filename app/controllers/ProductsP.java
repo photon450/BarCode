@@ -29,16 +29,6 @@ public class ProductsP extends Controller {
         return ok(views.html.ViewInv.render( navibar.retrieveId(), the_product));
 
     }
-     /*   Product product = null; //= Product.find.byId(Long.parseLong(Product.SKU));  //= Product.find.byId(Long.parseLong(Product.SKU));
-        //if(!product.products.isEmpty())
-        the_product = product.products;
+     //   Product product = null; //= Product.find.byId(Long.parseLong(Product.SKU));  //= Product.find.byId(Long.parseLong(Product.SKU));
 
-        else the_product = null;
-         if( !the_product.isEmpty() )
-        {   product = the_product;
-            return ok(ViewInv.render(navibar.retrieveId(),  the_product));}
-        //else
-           // the_product = null;
-        return ok(ViewInv.render(navibar.retrieveId(), the_product));
-    } */
 }

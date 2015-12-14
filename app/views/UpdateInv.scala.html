@@ -1,0 +1,36 @@
+@(usrIdStr: String, the_product: Product)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @PageFiles.headrf()
+    <title> Update Inventory</title>
+
+</head>
+
+<body>
+
+@navbar(usrIdStr)
+
+<h1 class="text-center">@the_product.Product_Name</h1>
+
+
+<form name = "UpdateInventory" action="@routes.Inventory.uppInv(the_product.Id)" method="post">
+    SKU: @the_product.SKU : <input type="text" name="SKU" id="SKU"  > <br><br>
+    Product_Name: @the_product.Product_Name : <input type="text" name="Product_Name" id="Product_Name" ><br><br>
+    Condition: @the_product.Condition: <input type="text" name="Condition" id="Condition" ><br><br>
+    <select size="1" name="Category" id="Category">
+        <option> Select the category</option>
+        <option value="Electronics"> Electronics </option>
+        <option value="Apparel"> Apparel </option>
+        <option value="Sports and Fitness"> Sports and Fitness </option>
+    </select><br>
+    Desc:@the_product.ProductDesc : <input type="text" name="Desc" id="Desc"> <br>
+    Quantity": @the_product.Availability : <input type="text" name="Quantity" id="Quantity"  > <br>
+
+    <input type="submit" value="Update!">
+    <input type="reset"  value="Reset Form">
+</form>
+
+</body>
+</html>

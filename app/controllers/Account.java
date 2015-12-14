@@ -18,12 +18,14 @@ import views.html.*;
 import play.data.Form;
 
 import static play.data.Form.form;
+import play.mvc.Security.Authenticated;
 
 public class Account extends Controller {
 
     public Result getLoginPage() {
         return ok(Login.render(navibar.retrieveId()));
     }
+    @Security.Authenticated(ManAuth.class)
     public Result getRegPage() { return ok(Registration.render(navibar.retrieveId()));}
 
 // we define adduser here.
@@ -37,8 +39,11 @@ public Result addUser() {
 
     //returns a user
     User user = User.createNewUser(email, password, first_name, last_name, username);
-
-
+    User userf = User.find.where().eq("email", email).findUnique();
+    if( userf != null){
+        flash("error", "User already Exists" );
+        return redirect(routes.Application.index());
+    }
 
     if(user == null){
         flash("error", "invalid user");
@@ -46,9 +51,9 @@ public Result addUser() {
     }
     user.save();
 
-    flash("success", "Welcome new user " + user.email);    // added to session
-    session("user_id", user.id.toString());
-    return redirect(routes.UserPage.getUserPage()); // leaves at their Main user page
+    flash("success", "You added Employee,  " + user.email);    // added to session
+    //session("user_id", user.id.toString());
+    return redirect(routes.ManagerAcc.getManMain()); // leaves at their Main user page
 }
 
     public Result logout() {

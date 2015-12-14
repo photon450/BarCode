@@ -15,32 +15,32 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET     /Home/UserPage              controllers.UserPage.getUserPage()
 
 GET     /Home/Login                controllers.Account.getLoginPage()
-
-GET    /Login/Registration          controllers.Account.getRegPage()
-
-POST    /Login/Registration/submit      controllers.Account.addUser()
-
 POST    /Login                          controllers.Account.login()
-
 GET     /Login/Logout                   controllers.Account.logout()
 
-GET  /managerRegs                       controllers.ManagerAcc.getManPage()
+GET    /Login/Registration          controllers.Account.getRegPage()
+POST    /Login/Registration/submit      controllers.Account.addUser()
 
-POST   /mangerRegs/submit               controllers.ManagerAcc.addMan()
+
+GET  /ManMain/Inv                   controllers.Inventory.getInvPage()
+GET     /View/Inv                   controllers.ProductsP.getViewInv()
+GET   /showProduct:id               controllers.ProductsP.displayProduct(id : Long)
+GET    /ManMain/Inv/Addition        controllers.Inventory.getAddInvPage()
+POST    /ManMain/Inv/Addition/submit    controllers.Inventory.addInv()
+
+GET     /View/Inv/Update            controllers.Inventory.updateInvPage(id : Long)
+POST     /View/Inv/update/submit    controllers.Inventory.uppInv(id : Long)
+
+GET  /managerRegs                   controllers.ManagerAcc.getManPage()
+POST   /mangerRegs/submit           controllers.ManagerAcc.addMan()
 
 GET  /Home/ManMain                  controllers.ManagerAcc.getManMain()
 
 GET  /Home/MLogin                   controllers.ManagerAcc.getMLogin()
-
 POST    /MLogin                     controllers.ManagerAcc.login()
 
-GET  /ManMain/Inv                   controllers.Inventory.getInvPage()
 
-GET    /ManMain/Inv/Addition        controllers.Inventory.getAddInvPage()
 
-POST    /ManMain/Inv/Addition/submit    controllers.Inventory.addInv()
 
-GET   /showProduct:id               controllers.ProductsP.displayProduct(id : Long)
 
-GET     /View/Inv                   controllers.ProductsP.getViewInv()
 

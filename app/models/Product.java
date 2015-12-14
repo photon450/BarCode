@@ -48,4 +48,8 @@ public class Product extends Inventory {
 
 
     }
+
+  //  public Product update(String SKU, String Product_Name, String Category,String Condition, String Desc,Integer Availability)
+
+
 }
