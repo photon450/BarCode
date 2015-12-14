@@ -65,8 +65,9 @@ public class Inventory extends Controller {
         String Condition = userForm.data().get("Condition");
         String Desc = userForm.data().get("Desc");
         // Integer Availability = Integer.valueOf(userForm.data().get("Quantity")); Removed feuture
-
-        Product product = Product.find.byId(Id);
+       // Product product2 = new Product();
+        Product  product;
+        product =  Product.find.where().eq("Id", Id).findUnique();
 
         if(product.Id == 0) {
             flash("error", "Item not found");
@@ -89,7 +90,7 @@ public class Inventory extends Controller {
         product.ProductDesc = Desc;}
         /* if(Availability != null )
         product.Availability = Availability; */
-        String Ids = String.valueOf(Id);
+        String Ids =  String.valueOf(Id);
 
         if(Ids == null){
             flash("error", "Item not found");
@@ -98,7 +99,7 @@ public class Inventory extends Controller {
        product.save();    // (String.valueOf(product.Id));
 
 
-        flash("success", "Updated Inventory: " + product.Product_Name);
+        flash("success", "Updated Inventory: " + product.Product_Name + "this is its sku:" + product.SKU);
         return redirect(routes.Inventory.getInvPage());
     }
 
