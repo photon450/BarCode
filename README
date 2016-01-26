@@ -1,4 +1,14 @@
 This is your new Play application
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+An online inventory management system, this MVP is in pre-alpha, it is designed to show case a baseline for 
+a simple inventory system. You can add and view inventory and employees. You can add Managers but they need a code
+to create their own account from HR. 
+
+
+Upcoming Features, 
+  Updating entered information 
+  Visualizing inventory using D3 javascript library 
+  Search Functionality.
+  
+  
